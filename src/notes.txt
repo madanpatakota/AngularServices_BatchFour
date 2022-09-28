@@ -1,0 +1,14 @@
+
+    // Interview Q) you said that you are creaing the service?
+    //    can i assign this task to the angular?
+
+    // A : yeah we can do
+
+    // Q) How ?
+    // A : throuth the construtor of the class 
+
+
+
+// its a nor
+
+
