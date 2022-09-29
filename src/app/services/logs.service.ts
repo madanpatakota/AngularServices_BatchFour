@@ -1,7 +1,7 @@
 
 
 export class logService{
-    showLog(logName:string){
+    showLog(logName:any){
          console.log(logName);
     }
 }

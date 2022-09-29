@@ -14,18 +14,14 @@ export class productService {
   }
 
   getProducts() {
-
-    //http 
-
-
-    // api name or end point
-    //http(<api or endpoint confituration>)
-    //.subscribe((response)=>{
-    //products = response;
-    //})
-
-
-
     return this.products;
   }
+
+  addProduct(product: string) {
+    let ID = this.products.length + 1;
+    let obj = { Id: ID, Name: product };
+    this.products.push(obj);
+    return this.products;
+  }
+  removeProduct() {}
 }
