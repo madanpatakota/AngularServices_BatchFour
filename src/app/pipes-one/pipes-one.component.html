@@ -1,0 +1,28 @@
+
+{{name | uppercase}}
+<hr>
+{{status | lowercase}}
+<hr>
+
+{{todayDate | date : 'shortDate'}}
+<hr>
+{{name | trimmer}}
+
+<hr>
+
+<ul>
+    <li *ngFor = "let item of customers
+     | arrayFilter : 3 
+     | mapPipe:'Customer'">
+        {{item}}
+    </li>
+</ul>
+
+<ul>
+    <li *ngFor = "let item of products
+     | arrayFilter : 1 
+     | mapPipe:'product'">
+        {{item}}
+    </li>
+</ul>
+
