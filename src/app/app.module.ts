@@ -6,12 +6,14 @@ import { ProductsComponent } from './products/products.component';
 import { NewproductComponent } from './newproduct/newproduct.component';
 import { productService } from './services/products.service';
 import { logService } from './services/logs.service';
+import { BasicDirective } from './basic.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
-    NewproductComponent
+    NewproductComponent,
+    BasicDirective
   ],
   imports: [
     BrowserModule
