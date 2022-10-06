@@ -12,6 +12,8 @@ import { PipesOneComponent } from './pipes-one/pipes-one.component';
 import { trimmer } from './trimmer.pipe';
 import { ArrayFilterPipe } from './array-filter.pipe';
 import { MapPipePipe } from './map-pipe.pipe';
+import { ObervablesComponent } from './obervables/obervables.component';
+import { CustomObservablesComponent } from './custom-observables/custom-observables.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { MapPipePipe } from './map-pipe.pipe';
     PipesOneComponent,
     trimmer,
     ArrayFilterPipe,
-    MapPipePipe
+    MapPipePipe,
+    ObervablesComponent,
+    CustomObservablesComponent
   ],
   imports: [
     BrowserModule
